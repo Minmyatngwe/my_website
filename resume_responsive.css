@@ -1,0 +1,24 @@
+@media screen and (max-width: 900px) {
+  main {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  main .main p,
+  main .main h2 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  main .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .text {
+    width: 100%;
+  }
+  .subheader {
+    width: 100%;
+  }
+}

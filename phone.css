@@ -1,0 +1,27 @@
+@media screen and (max-width: 400px) {
+  header div {
+    right: 30%;
+  }
+  header div a {
+    font-size: 1rem;
+    margin-right: 20%;
+  }
+  main {
+    flex-direction: column;
+    padding-top: 10vh;
+    align-items: flex-start;
+    margin-left: 30px;
+  }
+  main .img {
+    width: 60%;
+  }
+  main .text {
+    width: 80%;
+    margin-top: 5vh;
+  }
+  #resume,
+  #project,
+  #contact {
+    font-size: 1rem;
+  }
+}
